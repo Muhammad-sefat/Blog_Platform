@@ -4,33 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="logo">
-        <a href="#">TechBlog</a>
+    <nav class="bg-gray-800 text-white p-4 flex items-center justify-between">
+      <!-- Logo -->
+      <div class="text-2xl font-bold">
+        <a href="#">TechBD</a>
       </div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Tutorials</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li>
-          <a href="#">Categories</a>
-          <ul class="dropdown">
-            <li><a href="#">Programming</a></li>
-            <li><a href="#">AI & ML</a></li>
-            <li><a href="#">Tech News</a></li>
-          </ul>
-        </li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+
+      <!-- Menu Icon (Mobile) -->
+      <div class="md:hidden text-3xl cursor-pointer" onclick="toggleMenu()">
+        ☰
+      </div>
+
+      <!-- Navbar Links -->
+      <ul id="navLinks" class="hidden md:flex space-x-6">
+        <li><a href="#" class="hover:text-gray-300">Home</a></li>
+        <li><a href="#" class="hover:text-gray-300">Tech News</a></li>
+        <li><a href="#" class="hover:text-gray-300">About</a></li>
+        <li><a href="#" class="hover:text-gray-300">Contact</a></li>
       </ul>
-      <div class="auth-links">
-        <a href="#">Login</a> | <a href="#">Signup</a>
+
+      <!-- Auth Links -->
+      <div class="hidden md:block">
+        <a href="#" class="hover:text-gray-300">Login</a>
       </div>
     </nav>
-
     <script src="script.js"></script>
   </body>
 </html>
