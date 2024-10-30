@@ -14,7 +14,7 @@
     >
       <!-- Logo -->
       <div class="text-2xl font-bold">
-        <a href="#">Tech<span class="text-lime-500">BD</span></a>
+        <a href="#">Tech<span class="text-purple-600">BD</span></a>
       </div>
 
       <!-- Menu Icon (Mobile) -->
@@ -37,17 +37,26 @@
     </nav>
     <!-- banner -->
     <div
-      class="h-[80vh] w-full flex items-center justify-center bg-cover bg-no-repeat bg-center"
-      style="background-image: url('images/blog_pic.jpg')"
+      class="md:h-[80vh] relative text-white w-full flex items-center justify-center bg-cover bg-no-repeat bg-center"
+      style="
+        background-image: linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url('images/blog_pic.jpg');
+      "
     >
-      <div class="flex flex-col items-center justify-center text-white">
-        <h2 class="text-4xl font-bold my-2">Our New Tech News</h2>
+      <div
+        class="flex absolute flex-col items-center justify-center text-white text-center"
+      >
+        <h2 class="text-2xl md:text-4xl font-bold my-2">Our New Tech News</h2>
         <p class="w-2/3 mx-auto font-medium text-base">
           Here are some modern color palette combinations that work well for a
           tech-focused website like TechBD. These combinations create a sleek,
           professional, and vibrant feel, ensuring a good user experience.
         </p>
-        <button class="my-3 border border-lime-500 rounded-md p-2 text-lg">
+        <button class="my-3 border border-purple-600 rounded-md p-2 text-lg">
           Read More
         </button>
       </div>
