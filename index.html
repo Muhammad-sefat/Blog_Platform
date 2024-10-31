@@ -10,7 +10,7 @@
   <body>
     <!-- navbar -->
     <nav
-      class="bg-gray-800 text-white p-4 px-10 flex items-center justify-between"
+      class="bg-[#181818] text-white p-4 px-10 flex items-center justify-between"
     >
       <!-- Logo -->
       <div class="text-2xl font-bold">
@@ -57,7 +57,7 @@
           professional, and vibrant feel, ensuring a good user experience.
         </p>
         <button
-          class="my-3 shadow-xl bg-[#905dcd] hover:bg-[#5a3686] text-[#fbefef] font-medium rounded-md p-3 text-lg"
+          class="my-3 shadow-xl bg-[#905dcd] hover:bg-[#5a3686] duration-300 text-[#fbefef] font-medium rounded-md p-3 text-lg"
         >
           Read More
         </button>
@@ -65,22 +65,146 @@
     </div>
 
     <!-- categories section -->
-    <div class="bg-[#101010] h-screen p-5 flex justify-center items-center">
-      <div>
+    <div
+      class="bg-[#101010] min-h-screen p-5 md:px-10 flex flex-col justify-center items-center"
+    >
+      <h1 class="text-white text-4xl font-semibold py-12">Top Categories</h1>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- card 1 -->
         <div
-          class="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+          class="max-w-sm mx-auto bg-[#dbe6f4] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
         >
           <img
-            class="h-48 w-full object-cover"
-            src="https://via.placeholder.com/400x200"
+            class="h-48 w-full object-cover hover:scale-110 duration-300"
+            src="images/web.jpg"
             alt="Card image"
           />
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Web Development</h3>
-            <p class="mt-2 text-gray-600">
-              This is a brief description of the card content. It's designed to
-              give a quick overview.
+            <p class="mt-2 text-gray-700">
+              Explore the latest in web development, including coding
+              techniques, frameworks, and tools for building modern, responsive
+              websites and web applications.
+            </p>
+            <button
+              class="mt-4 px-4 py-2 bg-[#FF9500] text-[#333333] font-semibold rounded hover:bg-[#b9935d] transition-colors duration-300"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div
+          class="max-w-sm mx-auto bg-[#dbe6f4] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+        >
+          <img
+            class="h-48 w-full object-cover hover:scale-110 duration-300"
+            src="images/syber.jpg"
+            alt="Card image"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Cybersecurity</h3>
+            <p class="mt-2 text-gray-700">
+              Stay updated on cybersecurity practices, tools, and news to
+              protect personal and corporate data in an increasingly digital
+              world.
+            </p>
+            <button
+              class="mt-4 px-4 py-2 bg-[#FF9500] text-[#333333] font-semibold rounded hover:bg-[#b9935d] transition-colors duration-300"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div
+          class="max-w-sm mx-auto bg-[#dbe6f4] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+        >
+          <img
+            class="h-48 w-full object-cover hover:scale-110 duration-300"
+            src="images/cloud.jpg"
+            alt="Card image"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Cloud Computing</h3>
+            <p class="mt-2 text-gray-700">
+              Learn about the latest advancements in cloud technology, including
+              cloud infrastructure, platforms, and services that enable scalable
+              and efficient digital solutions for businesses.
+            </p>
+            <button
+              class="mt-4 px-4 py-2 bg-[#FF9500] text-[#333333] font-semibold rounded hover:bg-[#b9935d] transition-colors duration-300"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div
+          class="max-w-sm mx-auto bg-[#dbe6f4] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+        >
+          <img
+            class="h-48 w-full object-cover hover:scale-110 duration-300"
+            src="images/gagets.jpg"
+            alt="Card image"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">
+              Hardware & Gadgets
+            </h3>
+            <p class="mt-2 text-gray-700">
+              Reviews and analysis of the newest hardware and gadgets, from
+              smartphones to VR gear, keeping you informed on the latest tech
+              products.
+            </p>
+            <button
+              class="mt-4 px-4 py-2 bg-[#FF9500] text-[#333333] font-semibold rounded hover:bg-[#b9935d] transition-colors duration-300"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div
+          class="max-w-sm mx-auto bg-[#dbe6f4] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+        >
+          <img
+            class="h-48 w-full object-cover hover:scale-110 duration-300"
+            src="images/ai.jpg"
+            alt="Card image"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">
+              Artificial Intelligence (AI)
+            </h3>
+            <p class="mt-2 text-gray-700">
+              Discover developments in AI technology, from machine learning
+              algorithms to practical applications transforming industries.
+            </p>
+            <button
+              class="mt-4 px-4 py-2 bg-[#FF9500] text-[#333333] font-semibold rounded hover:bg-[#b9935d] transition-colors duration-300"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div
+          class="max-w-sm mx-auto bg-[#dbe6f4] rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+        >
+          <img
+            class="h-48 w-full object-cover hover:scale-110 duration-300"
+            src="images/inovation.jpg"
+            alt="Card image"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">
+              Startup & Innovation
+            </h3>
+            <p class="mt-2 text-gray-700">
+              Insights into the world of startups, innovative tech trends, and
+              entrepreneurial strategies for turning ideas into successful
+              ventures.
             </p>
             <button
               class="mt-4 px-4 py-2 bg-[#FF9500] text-[#333333] font-semibold rounded hover:bg-[#b9935d] transition-colors duration-300"
@@ -91,6 +215,7 @@
         </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
