@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Blog Platform</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
@@ -217,17 +225,64 @@
     </div>
 
     <!-- footer -->
-    <div>
-      <div>
-        <h1>TechBD</h1>
-        <p>
-          This is a tech blog platform which is dedicated for learn something
-          new about tech about and also user can write there personal blog in
-          this platform
-        </p>
+    <div class="h-[60vh] w-full bg-[#181818] text-white p-10">
+      <div class="flex justify-evenly">
+        <div class="md:w-[45%] px-4">
+          <h1 class="text-2xl font-bold pb-4">
+            Tech<span class="text-purple-600">BD</span>
+          </h1>
+          <p class="font-medium text-gray-200 text-base">
+            This is a tech blog platform which is dedicated for learn something
+            new about tech about and also user can write there personal blog in
+            this platform
+          </p>
+          <div class="flex text-2xl items-center space-x-6 py-5">
+            <i
+              class="fa-brands fa-facebook hover:border-2 border-purple-700 duration-200 rounded-full p-2"
+            ></i>
+            <i
+              class="fa-brands fa-linkedin hover:border-2 border-purple-700 duration-200 rounded-full p-2"
+            ></i>
+            <i
+              class="fa-brands fa-github hover:border-2 border-purple-700 duration-200 rounded-full p-2"
+            ></i>
+            <i
+              class="fa-brands fa-square-instagram hover:border-2 border-purple-700 duration-200 rounded-full p-2"
+            ></i>
+            <i
+              class="fa-brands fa-twitter hover:border-2 border-purple-700 duration-200 rounded-full p-2"
+            ></i>
+          </div>
+        </div>
+        <div class="flex-1 px-4">
+          <h2 class="text-2xl font-bold pb-4">Quick Link</h2>
+          <ul class="cursor-pointer space-y-1 font-medium">
+            <li><a href="#" class="hover:text-gray-400">Home</a></li>
+            <li><a href="#" class="hover:text-gray-400">Blog</a></li>
+            <li><a href="#" class="hover:text-gray-400">Contact Us</a></li>
+            <li><a href="#" class="hover:text-gray-400">About Us</a></li>
+          </ul>
+        </div>
+        <div class="flex-1 px-4">
+          <h2 class="text-2xl font-bold pb-4">Information</h2>
+          <div class="flex gap-4 items-center pb-2">
+            <i class="fa-solid fa-phone"></i>
+            <p>+8801995993330</p>
+          </div>
+          <div class="flex gap-4 items-center pb-2">
+            <i class="fa-solid fa-envelope"></i>
+            <p>techBD15@gmail.com</p>
+          </div>
+          <div class="flex gap-4 items-center">
+            <i class="fa-regular fa-location-dot"></i>
+            <p>Dhaka,Bangladesh</p>
+          </div>
+        </div>
       </div>
-      <div></div>
-      <div></div>
+      <hr class="my-5" />
+      <p class="text-center py-4 font-medium text-lg text-gray-400">
+        @Copyrites 2024 All Right Reserved by TechBD Company Co.
+      </p>
     </div>
     <script src="script.js"></script>
   </body>
